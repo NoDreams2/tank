@@ -28,6 +28,7 @@ while True:
     if menu == "центр":
         print("Расстояние между центрами тяжести прямоугольников:")
         print(cg_distance(x1, y1, x2, y2, x3, y3, x4, y4))
+
     if menu == "углы":
         print("Сумма расстояний между углами прямоугольников:")
         print(corner_distance(x1, y1, x2, y2, x3, y3, x4, y4))
